@@ -6,7 +6,7 @@ import jax.numpy as jnp
 import haiku as hk
 from haiku._src.data_structures import FlatMapping
 
-from davis_utils.jax import adaptive_pool, maybe_hk_dropout
+from .utils import adaptive_pool, dicts_to_flatmappings, maybe_hk_dropout
 
 # ported from: https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py
 
